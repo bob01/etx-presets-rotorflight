@@ -1,0 +1,15 @@
+# feature
+feature DYN_NOTCH
+feature RPM_FILTER
+
+# master
+set gyro_lpf1_static_hz = 135
+set gyro_lpf2_static_hz = 0
+set dyn_notch_count = 2
+set dyn_notch_q = 30
+set dyn_notch_min_hz = 35
+set dyn_notch_max_hz = 300
+set gyro_rpm_filter_bank_rpm_source = 11,12,12,13,14,21,22,0,0,0,0,0,0,0,0,0
+set gyro_rpm_filter_bank_rpm_ratio = 10000,9960,10040,10000,10000,10000,10000,0,0,0,0,0,0,0,0,0
+set gyro_rpm_filter_bank_rpm_limit = 500,500,500,500,500,1000,1000,0,0,0,0,0,0,0,0,0
+set gyro_rpm_filter_bank_notch_q = 30,25,25,40,40,40,40,0,0,0,0,0,0,0,0,0

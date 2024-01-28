@@ -1,0 +1,98 @@
+profile 0
+
+# profile 0
+set pitch_p_gain = 110
+set pitch_i_gain = 75
+set pitch_d_gain = 55
+set pitch_o_gain = 20
+set roll_p_gain = 55
+set roll_i_gain = 75
+set roll_d_gain = 5
+set roll_o_gain = 20
+set yaw_p_gain = 90
+set yaw_i_gain = 65
+set yaw_d_gain = 20
+set yaw_f_gain = 5
+set pitch_d_cutoff = 20
+set pitch_b_cutoff = 20
+set pitch_gyro_cutoff = 60
+set roll_d_cutoff = 20
+set roll_b_cutoff = 20
+set roll_gyro_cutoff = 60
+set yaw_d_cutoff = 30
+set yaw_b_cutoff = 30
+set yaw_gyro_cutoff = 135
+set yaw_ccw_stop_gain = 65
+set yaw_cyclic_ff_gain = 2
+set yaw_collective_ff_gain = 20
+set cyclic_cross_coupling_gain = 10
+set offset_limit = 60,60
+set iterm_relax_cutoff = 10,10,10
+set gov_headspeed = 1800
+
+profile 1
+
+# profile 1
+set pitch_p_gain = 110
+set pitch_i_gain = 75
+set pitch_d_gain = 55
+set pitch_o_gain = 20
+set roll_p_gain = 55
+set roll_i_gain = 75
+set roll_d_gain = 5
+set roll_o_gain = 20
+set yaw_p_gain = 85
+set yaw_i_gain = 65
+set yaw_d_gain = 20
+set yaw_f_gain = 5
+set pitch_d_cutoff = 20
+set pitch_b_cutoff = 20
+set pitch_gyro_cutoff = 60
+set roll_d_cutoff = 20
+set roll_b_cutoff = 20
+set roll_gyro_cutoff = 60
+set yaw_d_cutoff = 30
+set yaw_b_cutoff = 30
+set yaw_gyro_cutoff = 135
+set yaw_ccw_stop_gain = 65
+set yaw_cyclic_ff_gain = 2
+set yaw_collective_ff_gain = 20
+set cyclic_cross_coupling_gain = 10
+set offset_limit = 60,60
+set iterm_relax_cutoff = 10,10,10
+set gov_headspeed = 2500
+
+profile 2
+
+# profile 2
+set pitch_p_gain = 110
+set pitch_i_gain = 75
+set pitch_d_gain = 55
+set pitch_o_gain = 20
+set roll_p_gain = 55
+set roll_i_gain = 75
+set roll_d_gain = 5
+set roll_o_gain = 20
+set yaw_p_gain = 80
+set yaw_i_gain = 65
+set yaw_d_gain = 20
+set yaw_f_gain = 5
+set pitch_d_cutoff = 20
+set pitch_b_cutoff = 20
+set pitch_gyro_cutoff = 60
+set roll_d_cutoff = 20
+set roll_b_cutoff = 20
+set roll_gyro_cutoff = 60
+set yaw_d_cutoff = 30
+set yaw_b_cutoff = 30
+set yaw_gyro_cutoff = 135
+set yaw_ccw_stop_gain = 65
+set yaw_cyclic_ff_gain = 2
+set yaw_collective_ff_gain = 20
+set cyclic_cross_coupling_gain = 10
+set offset_limit = 60,60
+set iterm_relax_cutoff = 10,10,10
+set gov_headspeed = 2800
+
+# restore original profile selection
+profile 0

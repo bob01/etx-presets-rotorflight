@@ -1,0 +1,6 @@
+# feature
+feature GOVERNOR
+
+# master
+set motor_pwm_rate = 70
+set gov_mode = MODE1

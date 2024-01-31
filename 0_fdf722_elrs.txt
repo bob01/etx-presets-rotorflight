@@ -1,0 +1,2 @@
+# master
+set rssi_channel = 15

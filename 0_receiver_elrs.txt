@@ -1,0 +1,15 @@
+# map
+map AECR1T23
+
+# master
+set rssi_channel = 15
+set serialrx_provider = CRSF
+set crsf_att_pitch_reuse = HEADSPEED
+set crsf_att_roll_reuse = THROTTLE
+set crsf_att_yaw_reuse = ESC_TEMP
+set crsf_gps_heading_reuse = BEC_VOLTAGE
+set crsf_gps_sats_reuse = PROFILE_INDEX
+set telemetry_enable_pitch = ON
+set telemetry_enable_roll = ON
+set telemetry_enable_heading = ON
+set telemetry_enable_altitude = ON

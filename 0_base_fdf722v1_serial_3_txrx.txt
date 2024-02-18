@@ -1,0 +1,3 @@
+# resources
+resource SERIAL_RX 3 NONE
+resource SERIAL_TX 3 B11

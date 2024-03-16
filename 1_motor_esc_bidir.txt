@@ -1,0 +1,2 @@
+# master
+set esc_sensor_halfduplex = ON

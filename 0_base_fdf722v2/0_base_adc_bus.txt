@@ -1,5 +1,6 @@
 # resources
 resource ADC_BATT 1 NONE
+resource ADC_BEC 1 NONE
 resource ADC_BUS 1 C00
 
 # master

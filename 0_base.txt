@@ -19,4 +19,5 @@ set vbat_max_cell_voltage = 420
 set vbat_warning_cell_voltage = 345
 set current_meter = ESC
 set battery_meter = ESC
+set debug_mode = GYRO_SCALED
 set name = New

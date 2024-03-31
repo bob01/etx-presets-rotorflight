@@ -15,3 +15,4 @@ set telemetry_enable_pitch = ON
 set telemetry_enable_roll = ON
 set telemetry_enable_heading = ON
 set telemetry_enable_altitude = ON
+set telemetry_enable_ground_speed = ON

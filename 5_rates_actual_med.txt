@@ -1,54 +1,66 @@
 rateprofile 0
 
 # rateprofile 0
-set roll_rc_rate = 20
-set pitch_rc_rate = 20
-set collective_rc_rate = 54
-set yaw_expo = 15
-set roll_srate = 32
-set pitch_srate = 32
-set yaw_srate = 54
-set collective_srate = 54
-set yaw_response = 5
+set rates_type = RACEFLIGHT
+set roll_rc_rate = 28
+set pitch_rc_rate = 28
+set yaw_rc_rate = 54
+set collective_rc_rate = 52
+set roll_expo = 40
+set pitch_expo = 40
+set yaw_expo = 60
+set roll_srate = 0
+set pitch_srate = 0
+set yaw_srate = 0
+set collective_srate = 0
 
 rateprofile 1
 
 # rateprofile 1
-set roll_rc_rate = 20
-set pitch_rc_rate = 20
-set collective_rc_rate = 54
-set yaw_expo = 15
-set roll_srate = 32
-set pitch_srate = 32
-set yaw_srate = 54
-set collective_srate = 54
-set yaw_response = 5
+set rates_type = RACEFLIGHT
+set roll_rc_rate = 28
+set pitch_rc_rate = 28
+set yaw_rc_rate = 54
+set collective_rc_rate = 52
+set roll_expo = 40
+set pitch_expo = 40
+set yaw_expo = 60
+set roll_srate = 0
+set pitch_srate = 0
+set yaw_srate = 0
+set collective_srate = 0
 
 rateprofile 2
 
 # rateprofile 2
-set roll_rc_rate = 20
-set pitch_rc_rate = 20
-set collective_rc_rate = 54
-set yaw_expo = 15
-set roll_srate = 32
-set pitch_srate = 32
-set yaw_srate = 54
-set collective_srate = 54
-set yaw_response = 5
+set rates_type = RACEFLIGHT
+set roll_rc_rate = 28
+set pitch_rc_rate = 28
+set yaw_rc_rate = 54
+set collective_rc_rate = 52
+set roll_expo = 40
+set pitch_expo = 40
+set yaw_expo = 60
+set roll_srate = 0
+set pitch_srate = 0
+set yaw_srate = 0
+set collective_srate = 0
 
 rateprofile 3
 
 # rateprofile 3
-set roll_rc_rate = 20
-set pitch_rc_rate = 20
-set collective_rc_rate = 54
-set yaw_expo = 15
-set roll_srate = 32
-set pitch_srate = 32
-set yaw_srate = 54
-set collective_srate = 54
-set yaw_response = 5
+set rates_type = RACEFLIGHT
+set roll_rc_rate = 28
+set pitch_rc_rate = 28
+set yaw_rc_rate = 54
+set collective_rc_rate = 52
+set roll_expo = 40
+set pitch_expo = 40
+set yaw_expo = 60
+set roll_srate = 0
+set pitch_srate = 0
+set yaw_srate = 0
+set collective_srate = 0
 
 # restore original rateprofile selection
 rateprofile 0

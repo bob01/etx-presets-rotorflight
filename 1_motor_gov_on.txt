@@ -3,4 +3,5 @@ feature GOVERNOR
 
 # master
 set motor_pwm_rate = 70
-set gov_mode = STANDARD
+set motor_poles = 10,8,8,8
+set gov_mode = MODE1

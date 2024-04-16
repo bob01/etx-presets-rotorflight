@@ -1,0 +1,29 @@
+profile 1
+
+# profile 1
+set pitch_p_gain = 85
+set pitch_i_gain = 80
+set pitch_d_gain = 25
+set roll_i_gain = 80
+set yaw_p_gain = 85
+set yaw_i_gain = 85
+set yaw_d_gain = 15
+set yaw_f_gain = 10
+set yaw_ccw_stop_gain = 65
+set pitch_collective_ff_gain = 10
+set cyclic_cross_coupling_gain = 15
+
+profile 2
+
+# profile 2
+set pitch_p_gain = 85
+set pitch_i_gain = 80
+set pitch_d_gain = 25
+set roll_i_gain = 80
+set yaw_p_gain = 85
+set yaw_i_gain = 85
+set yaw_d_gain = 15
+set yaw_f_gain = 10
+set yaw_ccw_stop_gain = 65
+set pitch_collective_ff_gain = 10
+set cyclic_cross_coupling_gain = 15

@@ -6,4 +6,3 @@ resource ADC_BEC 1 C00
 # master
 set vbec_scale = 19
 set vbec_divider = 1
-set pid_process_denom = 2

@@ -6,4 +6,3 @@ resource ADC_BUS 1 C00
 # master
 set vbus_scale = 19
 set vbus_divider = 1
-set pid_process_denom = 2

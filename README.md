@@ -2,7 +2,8 @@
 
 
 # Welcome to etx-Presets for RotorFlight
-**New flight controller base settings for our ELRS RotorFlight electric and nitro R/C Helicopters**
+**Rapid setup for our ELRS RotorFlight electric and nitro R/C Helicopters**
+**Use at your own risk**
 
 
 ### About etx-Presets
@@ -11,6 +12,7 @@ The idea is...
 - flash the FC with RotorFlight 2.0 or later
 - from the RotorFlight configurator CLI load the preset files that match your hardware, model (e.g. 400 or 700 size), base profiles and rates (optional)
 - get straight to the familiar - name the FBL, verify gyro orientation, servo center/travels/direction, mixer settings, tweak PIDs and governor
+- verify that all controls are correct and setup is safe
 - GO FLY
 
 Even easier when used with transmitter models created with [etx-templates](https://github.com/bob01/etx-templates)
@@ -33,3 +35,7 @@ Even easier when used with transmitter models created with [etx-templates](https
 - basic servo settings for 1500us/333hz CCPM servos w/ geometry correction enabled (linear servo drives eg TDR2, TFF are rare) and a 760us/500hz or 1500us/333hz tail servo
 - (optional) more locked in but still conservative 700 profile
 - (optional) RACEFLIGHT rate which offers the more familiar rate / expo configuration
+
+
+## Start by flashing your flight controller with an up-to-date version of RotorFlight if needed, if not skip to the next step...
+

@@ -20,7 +20,7 @@ Even easier when used with transmitter models created with [etx-templates](https
 ### Requirements / supported controllers
 - RotorFlight 2 or later
 - FlyDragon F722 v1 or v2 flight controller
-- others will follow ehn available
+- others will follow when available
 
 
 ### Features and some of the settings available with presets

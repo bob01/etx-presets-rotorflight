@@ -16,7 +16,7 @@ The idea is...
 - verify that all controls are correct and setup is SAFE
 - GO FLY
 
-Even easier when used with transmitter models created with [etx-templates](https://github.com/bob01/etx-templates)
+Designed for use with transmitter models created with [etx-templates](https://github.com/bob01/etx-templates)
 
 
 ### Requirements / supported controllers

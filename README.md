@@ -3,6 +3,8 @@
 
 # Welcome to etx-Presets for RotorFlight
 **Rapid setup for our ELRS RotorFlight electric and nitro R/C Helicopters, use at your own risk**
+Thanks to Mike W. and Diego A. for the endless hours of testing and great ideas.
+Thanks to etocii for the filter and profile knowledge.
 
 
 ### About etx-Presets
@@ -46,10 +48,10 @@ Even easier when used with transmitter models created with [etx-templates](https
 
 
 ## first the hardware settings, there will be a dedicated folder for each hardware platform - be SURE to select the correct one and load the following files as shown
-- e.g. if using an ESC with bidirectional telemetry connected to serial port 3 load the following presets
-- - 0_base_fdf722_v2/0_base_adc_bus.txt (workaround for FDF722 v1/v2 lack of internal ADCs)
-  - 0_base_fdf722_v2/0_base_serial_3_halfduplex.txt [EXT] (skip if NOT using an ESC with bidirectional telemetry connected to this port)
-  - 0_base_fdf722_v2/0_base_serial_5_halfduplex.txt [GYRO] (skip if NOT using an ESC with bidirectional telemetry connected to this port)
+e.g. if using an ESC with bidirectional telemetry connected to serial port 3 load the following presets
+- from subfolder '0_base_fdf722_v2' load...
+  - 0_base_adc_bus.txt (workaround for FDF722 v1/v2 lack of internal ADCs)
+  - 0_base_serial_3_halfduplex.txt [EXT] (for bidirectional telemetry)
   - 0_base_fdf722_v20_base.txt
 ![image](https://github.com/bob01/etx-presets-rotorflight/assets/4014433/2a297f50-037d-4f38-9239-14e9c165337a)
 
@@ -61,13 +63,15 @@ Even easier when used with transmitter models created with [etx-templates](https
 - - 1_motor_esc_gov_on.txt or 1_motor_esc_gov_off.txt
   - 1_motor_esc_halfduplex.txt (skip if NOT using an ESC with bidirectional telemetry)
 - load the '2_filters_400/700' that best suits your model size
-- load the '3_servos_' that's closest to your hardware
-- (optional) load '4_profile_' for conservative but lively profile that we use as our starting point - headspeeds 1600, 1850, 2100rpm
-- (optional) load '5_rates_race_med.txt' for a medium rate feel. We prefer the familiar Rate/Expo RACEFLIGHT parameters. ACTUAL rates were confusing to most. Note - if using RACEFLIGHT rates always leave the Acro+ parameter set to 0.
+- load the '3_servos_' that's closest to your hardware- save
 ![image](https://github.com/bob01/etx-presets-rotorflight/assets/4014433/8e93d0f8-2a16-4cc3-b7f8-a7dd3c87537a)
 ![image](https://github.com/bob01/etx-presets-rotorflight/assets/4014433/afc8737a-1413-48ae-a0eb-4daa3916daa3)
 ![image](https://github.com/bob01/etx-presets-rotorflight/assets/4014433/2e7da4a3-c10e-46b4-b7eb-9dbc273b8e45)
 ### Done.
+
+### Optional
+- (optional) load '4_profile_' for conservative but lively profile that we use as our starting point - headspeeds 1600, 1850, 2100rpm
+- (optional) load '5_rates_race_med.txt' for a medium rate feel. We prefer the familiar Rate/Expo RACEFLIGHT parameters. ACTUAL rates were confusing to most. Note - if using RACEFLIGHT rates always leave the Acro+ parameter set to 0.
 
 
 ## From this point setup is more or less like any other FBL

@@ -2,9 +2,9 @@
 
 
 # Welcome to etx-Presets for RotorFlight
-**Rapid setup for our ELRS RotorFlight electric and nitro R/C Helicopters, use at your own risk**
-Thanks to Mike W. and Diego A. for the endless hours of testing and great ideas.
-Thanks to etocii for the filter and profile knowledge.
+**Rapid setup for our ELRS RotorFlight electric and nitro R/C Helicopters**<br>Thanks to Mike W. and Diego A. for the endless hours of testing and great ideas.<br>Thanks to etocii for the filter and profile knowledge.
+
+**USE AT YOUR OWN RISK**
 
 
 ### About etx-Presets

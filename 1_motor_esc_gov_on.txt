@@ -5,3 +5,4 @@ feature GOVERNOR
 set motor_pwm_rate = 70
 set motor_poles = 10,8,8,8
 set gov_mode = MODE1
+set gov_tracking_time = 80

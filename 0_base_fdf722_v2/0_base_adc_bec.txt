@@ -1,0 +1,8 @@
+# resources
+resource ADC_BATT 1 NONE
+resource ADC_BUS 1 NONE
+resource ADC_BEC 1 C00
+
+# master
+set vbec_scale = 19
+set vbec_divider = 1

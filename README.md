@@ -18,6 +18,11 @@ The idea is...
 
 Designed for use with transmitter models created with [etx-templates](https://github.com/bob01/etx-templates)
 
+### Release notes
+- 2024.05.15
+  - added support for RadioMaster Nexus FBL
+  - use BEC (vs BUS) ADC to report servo bus voltage
+
 
 ### Requirements / supported controllers
 - RotorFlight 2 or later
@@ -48,11 +53,17 @@ Designed for use with transmitter models created with [etx-templates](https://gi
 
 
 ## first the hardware settings, there will be a dedicated folder for each hardware platform - be SURE to select the correct one and load the following files as shown
-e.g. if using an ESC with bidirectional telemetry connected to serial port 3 load the following presets
-- from subfolder '0_base_fdf722_v2' load...
-  - 0_base_adc_bus.txt (workaround for FDF722 v1/v2 lack of internal ADCs)
+e.g.<br>
+- If using a FlyDragon F722 v2 and an ESC with bidirectional telemetry connected to serial port 3<br>
+load the following presets from subfolder '0_base_fdf722_v2' load...
+  - 0_base_adc_bec.txt (workaround for FDF722 v1/v2 lack of internal ADCs)
   - 0_base_serial_3_halfduplex.txt [EXT] (for bidirectional telemetry)
-  - 0_base_fdf722_v20_base.txt
+  - 0_base.txt
+
+- If using a RadioMaster Nexus and an ESC with bidirectional telemetry connected to port D (DSM)<br>
+load the following presets from subfolder '0_base_nexus' load...
+  - 0_base_serial_1_halfduplex.txt [DSM] (for bidirectional telemetry)
+  - 0_base.txt
 ![image](https://github.com/bob01/etx-presets-rotorflight/assets/4014433/2a297f50-037d-4f38-9239-14e9c165337a)
 
 

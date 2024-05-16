@@ -1,0 +1,10 @@
+# feature
+feature RX_SERIAL
+
+# serial
+serial 0 1024 115200 57600 0 115200
+serial 3 64 115200 57600 0 115200
+
+# master
+set mag_hardware = NONE
+set baro_hardware = NONE

@@ -6,6 +6,3 @@ resource SERVO 6 A02
 # timer
 timer A02 AF3
 # S6 - pin A02: TIM9 CH1 (AF3)
-
-# servo
-servo 6 1500 -500 500 500 500 100 0 0

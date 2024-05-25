@@ -1,0 +1,3 @@
+# resources
+resource SERIAL_RX 1 A10
+resource SERIAL_TX 1 A09

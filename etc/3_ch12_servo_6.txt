@@ -1,0 +1,8 @@
+#mixer input
+mixer input CH12 -1000 1000 1000
+
+#mixer rule
+mixer rule 12 set CH12 S6 1000 0
+
+# servo
+servo 6 1500 -500 500 500 500 100 0 0

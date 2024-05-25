@@ -4,5 +4,7 @@ resource SERVO 5 NONE
 resource SERVO 5 A03
 
 # timer
-timer A03 AF3
-# S5 - pin A03: TIM9 CH2 (AF3)
+timer A02 AF3
+# pin A02: TIM9 CH1 (AF3)
+timer A03 AF2
+# S5 - pin A03: TIM5 CH4 (AF2)

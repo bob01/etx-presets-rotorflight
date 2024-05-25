@@ -1,0 +1,11 @@
+# resources
+resource SERIAL_RX 2 NONE
+resource SERVO 5 NONE
+resource SERVO 5 A03
+
+# timer
+timer A03 AF3
+# S5 - pin A03: TIM9 CH2 (AF3)
+
+# servo
+servo 5 1500 -500 500 500 500 100 0 0

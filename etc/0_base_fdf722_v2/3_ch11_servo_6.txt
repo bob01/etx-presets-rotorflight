@@ -1,0 +1,5 @@
+#mixer input
+mixer input CH11 -1000 1000 1000
+
+#mixer rule
+mixer rule 11 set CH11 S6 1000 0

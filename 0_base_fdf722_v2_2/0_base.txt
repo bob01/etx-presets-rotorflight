@@ -1,0 +1,8 @@
+# serial
+serial 2 1024 115200 57600 0 115200
+
+# master
+set mag_hardware = NONE
+set baro_hardware = NONE
+set pid_process_denom = 2
+set blackbox_rate_denom = 2

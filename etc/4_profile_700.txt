@@ -1,0 +1,39 @@
+profile 0
+
+# profile 0
+set pitch_p_gain = 100
+set pitch_d_gain = 45
+set yaw_p_gain = 90
+set yaw_i_gain = 120
+set yaw_f_gain = 10
+set yaw_ccw_stop_gain = 65
+# set pitch_collective_ff_gain = 10
+# set cyclic_cross_coupling_gain = 15
+set gov_headspeed = 1600
+
+profile 1
+
+# profile 1
+set pitch_p_gain = 100
+set pitch_d_gain = 45
+set yaw_p_gain = 90
+set yaw_i_gain = 120
+set yaw_f_gain = 10
+set yaw_ccw_stop_gain = 65
+# set pitch_collective_ff_gain = 10
+# set cyclic_cross_coupling_gain = 15
+set gov_headspeed = 2000
+
+profile 2
+
+# profile 2
+set pitch_p_gain = 100
+set pitch_d_gain = 45
+set yaw_p_gain = 90
+set yaw_i_gain = 120
+set yaw_f_gain = 10
+set yaw_ccw_stop_gain = 65
+# set yaw_collective_ff_gain = 40
+# set pitch_collective_ff_gain = 10
+# set cyclic_cross_coupling_gain = 15
+set gov_headspeed = 2100

@@ -1,0 +1,8 @@
+# resources
+resource SERIAL_RX 2 NONE
+resource SERVO 6 NONE
+resource SERVO 6 A03
+
+# timer
+timer A03 AF3
+# S6 - pin A03: TIM9 CH2 (AF3)

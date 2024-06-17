@@ -19,6 +19,14 @@ The idea is...
 Designed for use with transmitter models created with [etx-templates](https://github.com/bob01/etx-templates)
 
 ### Release notes
+- 2024.06.17
+  - fdf722 - added presets to use RPM-S (5v port) for RPM sensor
+  - nexus7 - added presets to use port B (serial 6, 5v) for RPM sensor
+- 2024.05.25
+  - fdf722 - added presets for mapping ch11/12 to servo 5/6 on f.port or sbus port
+    - e.g. etc/3_ch11_servo_5 + etc/0_base_fdf722_v2/3_servo_5_fport.txt maps channel 11 to servo 5 and sends output to the f.port port
+  - nexus7 - added presets for mapping ch11/12 to servo 5 on sbus port
+    - e.g. etc/3_ch11_servo_5 + etc/0_base_nexus/3_servo_5_sbus.txt maps channel 11 to servo 5 and sends output to the sbus port
 - 2024.05.15
   - added support for RadioMaster Nexus FBL
   - use BEC (vs BUS) ADC to report servo bus voltage

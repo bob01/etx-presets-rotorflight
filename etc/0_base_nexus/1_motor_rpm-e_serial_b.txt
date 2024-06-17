@@ -1,0 +1,4 @@
+resource FREQ 1 NONE
+resource SERIAL_TX 6 C07
+resource SERIAL_RX 6 C06
+resource FREQ 1 A02

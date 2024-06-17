@@ -1,0 +1,2 @@
+resource FREQ 1 NONE
+resource FREQ 1 A01

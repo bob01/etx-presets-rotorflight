@@ -4,6 +4,7 @@ map AECR1T23
 # master
 set rssi_channel = 15
 set serialrx_provider = CRSF
+set crsf_flight_mode_reuse = GOVERNOR
 set crsf_att_pitch_reuse = ESC_BEC_VOLTAGE
 set crsf_att_roll_reuse = THROTTLE
 set crsf_att_yaw_reuse = ESC_TEMP

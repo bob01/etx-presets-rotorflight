@@ -19,6 +19,9 @@ The idea is...
 Designed for use with transmitter models created with [etx-templates](https://github.com/bob01/etx-templates)
 
 ### Release notes
+- 2024.07.03
+  - GOV status replaces FM (reuse), eThrottle widget version v0.6.5 or later required - very useful during auto bailout setup
+  - brisk bailout w/ max auto timeout (can't be disabled). Auto entry time/delay disabled
 - 2024.06.17
   - fdf722 - added presets to use RPM-S (5v port) for RPM sensor
   - nexus7 - added presets to use port B (serial 6, 5v) for RPM sensor

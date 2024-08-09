@@ -1,0 +1,12 @@
+# map
+map AECR1T23
+
+# master
+set rssi_channel = 15
+set serialrx_provider = CRSF
+
+set crsf_telemetry_mode = CUSTOM
+set crsf_telemetry_link_rate = 500
+set crsf_telemetry_link_ratio = 16
+
+set crsf_telemetry_sensors = 1,3,4,5,6,7,11,12,13,14,15,21,22,23,25,26,27,28,42,43,46,60,89,90,91,93,95,96,0,0,0,0,0,0,0,0,0,0,0,0

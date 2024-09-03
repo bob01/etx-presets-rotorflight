@@ -20,7 +20,9 @@ Designed for use with transmitter models created with [etx-templates](https://gi
 
 ### Release notes
 - 2024.09.02
-  - added support for RotorFlight v2.1 telemetry (0_receiver_elrs_RF-2.1.txt vs 0_receiver_elrs_RF-2.0.txt)
+  - added support for RotorFlight v2.1 telemetry
+    - Use 0_receiver_elrs_RF-2.0.txt for RotorFlight v2.0
+    - Use 0_receiver_elrs_RF-2.1.txt for RotorFlight v2.1 and above
 - 2024.07.03
   - GOV status replaces FM (reuse), eThrottle widget version v0.6.5 or later required - very useful during auto bailout setup
   - brisk bailout w/ max auto timeout (can't be disabled). Auto entry time/delay disabled

@@ -74,12 +74,10 @@ e.g.<br>
 - If using a FlyDragon F722 v2 and an ESC with bidirectional telemetry connected to serial port 3<br>
 load the following presets from subfolder '0_base_fdf722_v2' load...
   - 0_base_adc_bec.txt (workaround for FDF722 v1/v2 lack of internal ADCs)
-  - 0_base_serial_3_halfduplex.txt [EXT] (for bidirectional telemetry)
   - 0_base.txt
 
 - If using a RadioMaster Nexus and an ESC with bidirectional telemetry connected to port D (DSM)<br>
 load the following presets from subfolder '0_base_nexus' load...
-  - 0_base_serial_1_halfduplex.txt [DSM] (for bidirectional telemetry)
   - 0_base.txt
 ![image](https://github.com/bob01/etx-presets-rotorflight/assets/4014433/2a297f50-037d-4f38-9239-14e9c165337a)
 

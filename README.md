@@ -19,8 +19,10 @@ The idea is...
 Designed for use with transmitter models created with [etx-templates](https://github.com/bob01/etx-templates)
 
 ### Release notes
+- 2025.02.22
+  - added support for FBUS / FrSky RF007 controller
 - 2025.01.15
-  - RotorFlight v2.1.x is now main branch
+  - RotorFlight v2.1.x is now main branch (use tag RF-2.0.x for RotorFlight 2.0)
 - 2024.09.03
   - replace hardware dependent TX/RX esc telemetry pin swap with new v2.1 esc_sensor_pinswap feature
 - 2024.09.02

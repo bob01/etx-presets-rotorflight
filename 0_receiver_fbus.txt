@@ -12,10 +12,10 @@ set telemetry_enable_throttle_control = ON
 set telemetry_enable_arming_flags = ON
 
 ## missing
-# Battery Cell Count
-# ESC Power (throttle %)
-# ESC BEC Voltage
-# ESC BEC Current
+# Battery Cell Count +
+# ESC Power (throttle %) +
+# ESC BEC Voltage +
+# ESC BEC Current +
 # ESC Status
 # ESC Model
-# Arm Disable Flags
+# Arm Disable Flags +

@@ -1,3 +1,6 @@
+## For RotorFlight 2.1.1 and earlier
+##
+
 # master
 set telemetry_enable_current = ON
 set telemetry_enable_esc_current = ON

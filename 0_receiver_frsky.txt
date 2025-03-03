@@ -1,2 +1,24 @@
+## For RotorFlight 2.1.1 and earlier
+##
+
 # master
-set telemetry_sensors = 3,4,5,6,7,42,43,46,47,50,17,18,19,20,21,22,27,28,60,88,89,90,91,93,95,96,1,15,0,0,0,0,0,0,0,0,0,0,0,0
+set telemetry_enable_current = ON
+set telemetry_enable_esc_current = ON
+set telemetry_enable_esc_voltage = ON
+set telemetry_enable_gov_mode = ON
+set telemetry_enable_model_id = ON
+set telemetry_enable_pid_profile = ON
+set telemetry_enable_rates_profile = ON
+set telemetry_enable_bec_voltage = ON
+set telemetry_enable_headspeed = ON
+set telemetry_enable_throttle_control = ON
+set telemetry_enable_arming_flags = ON
+
+## missing
+# Battery Cell Count +
+# ESC Power (throttle %) +
+# ESC BEC Voltage +
+# ESC BEC Current +
+# ESC Status
+# ESC Model
+# Arm Disable Flags +

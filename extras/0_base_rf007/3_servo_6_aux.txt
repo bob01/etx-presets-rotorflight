@@ -1,0 +1,4 @@
+# resources
+resource SERIAL_TX 1 NONE
+resource SERVO 6 NONE
+resource SERVO 6 B06

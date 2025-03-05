@@ -19,6 +19,9 @@ The idea is...
 Designed for use with transmitter models created with [etx-templates](https://github.com/bob01/etx-templates)
 
 ### Release notes
+- 2025.03.04
+  - rf007 - added support for RotorFlight v2.2 (side-branch)
+  - rf007 - added presets for servo 5 and 6 on AUX and SBUS on the 007 as channel 11 and 12
 - 2025.02.22
   - added support for FBUS / FrSky RF007 controller
 - 2025.01.15

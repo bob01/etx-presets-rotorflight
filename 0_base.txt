@@ -18,8 +18,6 @@ mixer input SY -1250 1250 500
 mixer input SC -1250 1250 500
 
 # master
-set blackbox_log_vbec = ON
-set blackbox_log_vbus = ON
 set bat_capacity = 1800
 set vbat_max_cell_voltage = 420
 set vbat_warning_cell_voltage = 345

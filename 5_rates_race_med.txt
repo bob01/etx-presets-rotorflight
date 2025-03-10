@@ -13,10 +13,6 @@ set roll_srate = 0
 set pitch_srate = 0
 set yaw_srate = 0
 set collective_srate = 0
-set roll_response = 20
-set pitch_response = 20
-set yaw_response = 10
-set collective_response = 20
 
 rateprofile 1
 
@@ -33,10 +29,6 @@ set roll_srate = 0
 set pitch_srate = 0
 set yaw_srate = 0
 set collective_srate = 0
-set roll_response = 20
-set pitch_response = 20
-set yaw_response = 10
-set collective_response = 20
 
 rateprofile 2
 
@@ -53,10 +45,6 @@ set roll_srate = 0
 set pitch_srate = 0
 set yaw_srate = 0
 set collective_srate = 0
-set roll_response = 20
-set pitch_response = 20
-set yaw_response = 10
-set collective_response = 20
 
 rateprofile 3
 
@@ -73,10 +61,6 @@ set roll_srate = 0
 set pitch_srate = 0
 set yaw_srate = 0
 set collective_srate = 0
-set roll_response = 20
-set pitch_response = 20
-set yaw_response = 10
-set collective_response = 20
 
 rateprofile 4
 

@@ -27,4 +27,6 @@ set vbat_warning_cell_voltage = 345
 set current_meter = ESC
 set battery_meter = ESC
 set debug_mode = GYRO_SCALED
+set esc_sensor_halfduplex = ON
+set esc_sensor_pinswap = ON
 set name = New

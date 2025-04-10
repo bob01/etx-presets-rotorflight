@@ -10,7 +10,7 @@
 ### About etx-Presets
 Goal is to get a new flight controller configured as quickly possible allowing the user to get to familiar FBL setup with all of the boilerplate stuff out of the way.
 The idea is...
-- flash the FC with RotorFlight 2.0 or later
+- flash the FC with RotorFlight 2.1 or later
 - from the RotorFlight configurator CLI load the preset files that match your hardware, model (e.g. 400 or 700 size), base profiles and rates (optional)
 - get straight to the familiar - name the FBL, verify gyro orientation, servo center/travels/direction, mixer settings, tweak PIDs and governor
 - verify that all controls are correct and setup is SAFE
@@ -19,6 +19,12 @@ The idea is...
 Designed for use with transmitter models created with [etx-templates](https://github.com/bob01/etx-templates)
 
 ### Release notes
+- 2025.03.10
+  - RF-2.1.x defaults pretty good / changed - gyro (2_filters_*) and profile (4_profile_*) presets no longer needed, moved into legacy folder.
+  - Other presets cleaned up, settings no longer needed have been removed
+- 2025.03.04
+  - rf007 - added support for RotorFlight v2.2 (side-branch)
+  - rf007 - added presets for servo 5 and 6 on AUX and SBUS on the 007 as channel 11 and 12
 - 2025.02.22
   - added support for FBUS / FrSky RF007 controller
 - 2025.01.15

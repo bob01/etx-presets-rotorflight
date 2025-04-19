@@ -19,6 +19,9 @@ The idea is...
 Designed for use with transmitter models created with [etx-templates](https://github.com/bob01/etx-templates)
 
 ### Release notes
+- 2025.04.19
+  - added support for FlyDragon Pro, RF2.2 [crsf_]telemetry_sensor rename, introduced mild actual rate option
+  - RF-2.2.x is main now, see RF-2.1.x or RF-2.0.x tags if needed
 - 2025.03.10
   - RF-2.1.x defaults pretty good / changed - gyro (2_filters_*) and profile (4_profile_*) presets no longer needed, moved into legacy folder.
   - Other presets cleaned up, settings no longer needed have been removed
@@ -53,8 +56,7 @@ Designed for use with transmitter models created with [etx-templates](https://gi
 
 ### Requirements / supported controllers
 - RotorFlight 2 or later
-- FlyDragon F722 v1 or v2 flight controller
-- others will follow when available
+- FlyDragon F722 v1, v2, v2.2, pro, RadioMaster Nexus, FrSky 007 flight controller
 
 
 ### Features and some of the settings available with presets

@@ -1,0 +1,6 @@
+# resources
+resource SERIAL_TX 2 NONE
+resource SERVO 6 A02
+
+# timer
+timer A02 AF3

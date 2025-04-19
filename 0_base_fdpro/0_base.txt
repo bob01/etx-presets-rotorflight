@@ -1,0 +1,5 @@
+# serial
+serial 2 1024 115200 57600 0 115200
+
+# master
+set baro_hardware = NONE

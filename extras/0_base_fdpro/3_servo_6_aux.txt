@@ -1,0 +1,6 @@
+# resources
+resource FREQ 2 NONE
+resource SERVO 6 B09
+
+# timer
+timer B09 AF3

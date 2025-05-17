@@ -11,12 +11,6 @@ aux 2 31 2 900 1300 0 0
 adjfunc 0 2 1 900 2100 1 1000 2000 1500 1500 0 1 4
 adjfunc 1 1 1 900 2100 1 1000 2000 1500 1500 0 1 4
 
-# mixer input
-mixer input SR -1000 1000 500
-mixer input SP -1000 1000 500
-mixer input SY -1250 1250 500
-mixer input SC -1250 1250 500
-
 # master
 set blackbox_log_esc = ON
 set blackbox_log_bec = ON

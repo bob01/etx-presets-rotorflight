@@ -19,6 +19,8 @@ The idea is...
 Designed for use with transmitter models created with [etx-templates](https://github.com/bob01/etx-templates)
 
 ### Release notes
+- 2025.09.07
+  - added support for Nexus X/XR
 - 2025.04.19
   - added support for FlyDragon Pro, RF2.2 [crsf_]telemetry_sensor rename, introduced mild actual rate option
   - RF-2.2.x is main now, see RF-2.1.x or RF-2.0.x tags if needed

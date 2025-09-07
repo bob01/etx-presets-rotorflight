@@ -1,0 +1,2 @@
+# master
+set baro_hardware = NONE

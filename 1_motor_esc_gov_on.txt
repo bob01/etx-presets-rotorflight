@@ -8,3 +8,4 @@ set gov_mode = ELECTRIC
 set gov_throttle_type = FUNCTION
 set gov_tracking_time = 80
 set gov_autorotation_timeout = 60
+set gov_auto_throttle = 70

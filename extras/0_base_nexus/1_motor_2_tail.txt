@@ -1,0 +1,3 @@
+# resources
+resource MOTOR 2 B03
+resource SERVO 4 NONE

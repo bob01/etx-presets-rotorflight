@@ -19,6 +19,8 @@ The idea is...
 Designed for use with transmitter models created with [etx-templates](https://github.com/bob01/etx-templates)
 
 ### Release notes
+- 2026.10.12
+  - added 'RESC' (rescue mode) to telemetry stream
 - 2026.04.30
   - revised for RotorFlight v2.3.x (RF-2.3.x)
 - 2025.09.07

@@ -21,6 +21,7 @@ Designed for use with transmitter models created with [etx-templates](https://gi
 ### Release notes
 - 2026.10.12
   - added 'RESC' (rescue mode) to telemetry stream
+  - added 1_motor_2_tail presets for supported targets
 - 2026.04.30
   - revised for RotorFlight v2.3.x (RF-2.3.x)
 - 2025.09.07
